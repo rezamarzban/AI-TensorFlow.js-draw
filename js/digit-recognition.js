@@ -183,7 +183,7 @@ $("#clear-button").click(async function () {
 // loader for cnn model
 //-------------------------------------
 async function loadModel() {
-  let modelFileName = prompt("Please enter model file name (with path) or URL to loading (do not change the input and click ok if you want to load the default model):", "models/model.json");
+  let modelFileName = prompt("Please enter appropriate model file name (with path) or URL to loading (Otherwise do not change the input and just click OK button if you want to load the default model):", "models/model.json");
 
   // clear the model variable
   model = undefined;
